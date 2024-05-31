@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Observe - ORION</title>
+    <link rel="stylesheet" href="observe.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>ORION</h1>
+            <div class="header-buttons">
+                <button id="header-button">SUBMIT A PHOTO</button>
+                <button id="header-button">DONATE</button>
+                
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="homepage.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="news&eventspage.html">NEWS & EVENTS</a></li>
+                <li><a href="astronomypage.html">ASTRONOMY</a></li>
+                <li><a href="astrophotographypage.html">ASTROPHOTOGRAPHY</a></li>
+                <li><a href="tools.html">TOOLS</a></li>
+                <li><a href="observe.html" class="active">OBSERVE</a></li>
+            </ul>
+        </nav>
+    </header>
+    <hr>
+    <main>
+        <section class="observe">
+            <h2>OBSERVE</h2>
+            <div class="observe-content">
+    <aside class="eclipse-guide">
+            <h3>ECLIPSE GUIDE</h3>
+            <h4>Upcoming Eclipses</h4>
+        <ul>
+            <li>
+            <span>Solar Eclipse:</span> <a href="https://www.timeanddate.com/eclipse/map/2024-april-8">April 8, 2024</a>
+            </li>
+            <li>
+                <span>Lunar Eclipse:</span> <a href="https://www.timeanddate.com/eclipse/lunar/2024-september-18">September 18, 2024</a>
+            </li>
+            <li>
+                <span>Solar Eclipse:</span> <a href="https://earthsky.org/astronomy-essentials/an-annular-solar-eclipse-on-october-2-2024/">October 2, 2024</a>
+            </li>
+            <li>
+                <span>Lunar Eclipse:</span> <a href="https://www.timeanddate.com/eclipse/lunar/2025-march-14">March 14, 2025 </a>
+            </li>
+        </ul>
+     </aside>
+                <div class="main-content">
+                    <div class="interactive-map">
+                        <h3>Interactive Sky Map</h3>
+                        <iframe src="https://theskylive.com/planetarium#ra|3.7890574408898487|dec|-27.523068968127102|fov|52.9" width="800" height="600" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="observing-guides">
+                
+                        
+                            <h3>OBSERVING GUIDES</h3>
+                            <div class="event">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSibzdpuKRHKG887LLDzY9XapwQQPSBWW__kg&s" alt="Sky Map 3">
+                                <a href="https://www.thriftbooks.com/series/astronomers-observing-guides/64850/"><p><span>Galaxies and How to Observe Them</span></p></a>
+                             </div>
+                            <div class="event">
+                                <img src="https://i.harperapps.com/hcanz/covers/9780008532611/y648.jpg" alt="Sky Map 3">
+                                <a href="https://www.harpercollins.com.au/9780008532611/observing-our-solar-system/"><p><span>Observing our Solar System</span></p></a>
+                            </div>
+                            <div class="event">
+                                <img src="https://media.springernature.com/full/springer-static/cover-hires/book/978-1-84628-243-0" alt="Sky Map 3">
+                                <a href ="https://link.springer.com/book/10.1007/1-84628-243-8"><p><span>The Moon and How to Observe it</span></p></a>
+                            </div>
+                        </div>
+                    </div>
+                
+        </section>
+        <div class="accessibility-menu " >
+            <button class="accessibility-toggle" aria-label="Open Accessibility Menu">☰</button>
+            <div class="accessibility-options" >
+                <link rel="stylesheet" href="accessibility.css">
+                <button class="accessibility-option" aria-label="Increase Text">Increase Text Size</button>
+                <button class="accessibility-option" aria-label="Decrease Text">Decrease Text Size</button>
+                <button class="accessibility-option" aria-label="Voice Reader">Voice Reader</button>
+                <button class="accessibility-option" aria-label="SVoice Reader">Stop Voice Reader</button>
+                <button class="accessibility-option" aria-label="Keyboard Shortcuts">Keyboard Shortcuts</button>
+                <button class="accessibility-option" aria-label="Toggle Dark Mode" id="toggle-theme-button">Dark Mode</button>
+                <button class="accessibility-option" aria-label="Language">Language</button>
+                <button class="accessibility-option" aria-label="Additional Settings">Additional Settings</button>
+            </div>
+        </div>
+    
+        
+        <script src="accessibility.js"></script>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <h2>JOIN OUR COMMUNITY</h2>
+            <p>Find a club near you</p>
+        </div>
+    </footer>
+</body>
+</html>
